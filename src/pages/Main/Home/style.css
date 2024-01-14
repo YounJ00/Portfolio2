@@ -1,0 +1,46 @@
+/* =========== SHOWCASE AREA STYLES ==================*/
+
+.showcase-area {
+  padding: 120px 0;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.showcase-area .container {
+  display: grid;
+  grid-template-columns: 1fr 550px;
+  height: calc(100vh - 120px);
+  height: 600px;
+  align-items: center;
+}
+
+.showcase-area .sub-heading {
+  margin-bottom: 0.7rem;
+}
+
+.showcase-area .heading {
+  font-size: 3.5rem;
+}
+
+.showcase-area .text {
+  margin: 0.8rem 0;
+}
+
+.showcase-image {
+  position: relative;
+  width: 100%;
+  min-height: calc(100% + 120px);
+  background-image: linear-gradient(124deg, #eeeeee, #eeeeee);
+  margin-top: -168px;
+  border-radius: 0 0 80px 80px;
+}
+
+.showcase-image .person {
+  position: absolute;
+  width: 127%;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0 0 80px 80px;
+}
